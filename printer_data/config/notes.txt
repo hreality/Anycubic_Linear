@@ -1,0 +1,37 @@
+SKR Pico MB
+BTT Pi v1.2
+Pinda/Inductive Probe probe.
+Removed display
+Installed Klipper
+
+Filament Used:
+Overture ABS (yellow):  https://www.amazon.com/gp/product/B09DCNPPKT
+KVP Black ABS (Power Supply Mount):  No link Im afraid.. got this back in 2021/22
+Ziro PLA Pro (Sherpa Mount):  https://www.amazon.com/gp/product/B08JLJ7Q6Z
+
+Printed Parts:
+Hotend Cable Holder:  https://www.thingiverse.com/thing:2768622/files
+Corner Frame Support:  https://www.thingiverse.com/thing:2620272
+Motor Covers (Remix):  https://www.thingiverse.com/thing:3004307
+Power Supply Mount: https://www.thingiverse.com/thing:2552905/files
+Kossel Strain Relief:  https://cults3d.com/en/3d-model/tool/anycubic-kossel-hotend-cableholder
+Kossel Spool Holder:  https://www.printables.com/model/156933-kossel-replacment-spool-holder
+Tennis Ball Feet (Remix):  https://www.thingiverse.com/thing:3212276
+Inductive probe holder:  https://www.printables.com/model/952922-anycubic-delta-pinda-holder
+IEC PS Cover:  https://www.printables.com/model/53920-meanwell-lrs-350-outlet-and-cover
+Spool Holder:  https://www.printables.com/model/156933-kossel-replacment-spool-holder
+Optical Endstop Mounts:  https://www.thingiverse.com/thing:3350812
+SKR Pico Mount (2020):  https://www.printables.com/model/582230-skr-pico-mainboard-mount
+BTT Pi v1.2 Mount (2020):  https://www.printables.com/model/508377-btt-pi-mount-for-2020-extrusions-enderwireIEC Power Mount:
+PS Mount:  https://www.thingiverse.com/thing:3471337/files
+
+Comments:
+  My intent was a 'bin' build for a shelf case Anycubic Linear Plus I got back in 2017.  Left the original motors, frame, belts.
+  Printed 'upgrades' swapped out the control board added a BTT pi and installed Klipper.  Changed endstops, altered a model (on printables)
+  for a spare Pinda I had and I originally had a heatbed and magnetic plate but never brought them online.  Used a 12v supply I had and I
+  think it came out pretty good.  As with all hobbyist printers its a work in progress.  As I had to write the config from scratch I started with
+  the klipper sample and altered and added to fit my needs.
+
+  Display customization suuuuuucks.  Conditional statements etc.  For example, I have a v0 display used in this but the delta calibration menus 'stock' don't work.
+  It looks for a non printing state and 'delta_calibrate' in the printer config.  Well its there!  Still no show.. so I just made an entry to look for a non printing state.
+  I'm finger banging the config for the display so its liable to change periodically.  Way too much going on and I dont want the extra baggage.
