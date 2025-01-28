@@ -1,6 +1,6 @@
 SKR Pico MB
 BTT Pi v1.2
-Pinda/Inductive Probe probe.
+Pinda/Inductive Probe.
 Removed display
 Installed Klipper
 
@@ -35,3 +35,6 @@ Comments:
   Display customization suuuuuucks.  Conditional statements etc.  For example, I have a v0 display used in this but the delta calibration menus 'stock' don't work.
   It looks for a non printing state and 'delta_calibrate' in the printer config.  Well its there!  Still no show.. so I just made an entry to look for a non printing state.
   I'm finger banging the config for the display so its liable to change periodically.  Way too much going on and I dont want the extra baggage.
+
+  Klipper:
+  https://github.com/bigtreetech/SKR-Pico/tree/master/Klipper
